@@ -16,63 +16,56 @@
   <body>
       <!-------------------------NAVBAR START------------------------------>
     <div class="bg-light sticky-top">
-        <div class="container ">
+        <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#"><img src="icon/icons8-linkedin-48.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+                <form class="form-inline my-2 my-lg-0 rounded bg-light-blue">
+                    <button class="btn my-2 my-sm-0" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input class="input border-0 bg-light-blue" type="text" placeholder="Arama Yap" aria-label="Search">
+                </form>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <form class="form-inline my-2 my-lg-0 rounded bg-light-blue">
-                        <button class="btn my-2 my-sm-0" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                        <input class="input border-0 bg-light-blue" type="text" placeholder="Arama Yap" aria-label="Search">
-                    </form>
-                </div>
-                    
-                <div class="d-flex">
-                    <div>
-                        <ul class="navbar-nav mr-auto d-flex">
-                            <li class="nav-item active flex-column text-center">
-                                <i class="fa-solid fa-house-chimney"></i>
-                                <a class="nav-link" href="#">Anasayfa <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item flex-column text-center">
-                                <i class="fa-solid fa-network-wired"></i>
-                                <a class="nav-link" href="#">Ağım</a>
-                            </li>
-                            <li class="nav-item flex-column text-center">
-                                <i class="fa-solid fa-business-time"></i>
-                                <a class="nav-link" href="#">İş İlanları</a>
-                            </li>
-                            <li class="nav-item flex-column text-center">
-                                <i class="fa-regular fa-message"></i>
-                                <a class="nav-link" href="#">Mesajlaşma</a>
-                            </li>
-                            <li class="nav-item flex-column text-center">
-                                <i class="fa-regular fa-bell"></i>
-                                <a class="nav-link" href="#">Bildirimler</a>
-                            </li>
-                            <li class="nav-item flex-column text-center">
-                                <img class="rounded-circle" src="https://picsum.photos/id/144/25/25" alt="">
-                                <a class="nav-link" href="#">Ben</a>
-                            </li>
-                        </ul> 
-                    </div>
-                    <div class="nav-second-right-area ">
-                        <ul class="navbar-nav mr-auto d-flex">
-                            <li class="nav-item flex-column text-center">
-                                <i class="fa-regular fa-square"></i>
-                                <a class="nav-link" href="#">İş</a>
-                            </li>
-                            <li class="nav-item flex-column text-center">
-                                <i class="fa-regular fa-square"></i>
-                                <a class="nav-link" href="#">İş İlanı Yayınla</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>       
+
+                <div class="collapse navbar-collapse" id="navbarNav">   
+                   <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active text-center">                                
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-house-chimney"></i><br> Anasayfa <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-network-wired"></i><br> Ağım</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-business-time"></i><br> İş İlanları</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="#">
+                                <i class="fa-regular fa-message"></i><br> Mesajlaşma</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="#">
+                                <i class="fa-regular fa-bell"></i><br> Bildirimler</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="#">
+                                <img class="rounded-circle" src="https://picsum.photos/id/144/25/25" alt=""><br> Ben</a>
+                        </li>
+                        <li class="nav-item text-center border-left">
+                            <a class="nav-link" href="#">
+                                <i class="fa-regular fa-square"></i><br> İş</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="#">
+                                <i class="fa-regular fa-square"></i><br> İş İlanı Yayınla</a>
+                        </li>
+                    </ul>
+                </div>      
             </nav>
+            
         </div>
     </div>
      <!-------------------------NAVBAR END------------------------------>
@@ -80,18 +73,25 @@
         <div class="row ">
             <!-------------------------LEFT_AREA START------------------------------>
             <div class="col-sm-3">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-header">
-                        <img src="https://picsum.photos/id/144/25/25" alt="">
+                <div class="card text-center" style="width: 18rem;">
+                    <div class="card-header" style="background-image: url(https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fblogs-images.forbes.com%2Falejandrocremades%2Ffiles%2F2018%2F12%2Fbusiness-3605367_1920-1200x741.jpg);
+                    height: 53px;">
+                    <a href="#"><img class="rounded-circle" src="https://picsum.photos/id/42/70/70" alt=""></a>
+                    </div>                
+                    <div class="card-body mt-4">
+                      <div class="pb-3">
+                        <h5 class="card-title">Cengiz Cemal Mataracı</h5>
+                        <h6 class="mb-2 text-muted small">Software Developer at Navlungo - Dijital Lojistik Platformu</h6>
                       </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
+                      <div class="border-top pt-3">
+                          <p class="text-muted small"><b>Profilinizi kimler görüntüledi</b><a href="#"><b> 447</b></a></p>
+                          <p class="text-muted small"><b>Yayınınız için görüntüleme</b><a href="#"><b> 150</b></a></p>
+                      </div>
                     </div>
-                  </div>
+                    <div class="card-footer text-muted d-flex float-left bg-white">
+                        <a class="text-dark" href="#"><i class="fas fa-bookmark"></i><b> Öğelerim</b></a>
+                    </div>
+                </div>
             </div>
             <!-------------------------LEFT_AREA END------------------------------>
             <!-------------------------MEDIUM_AREA START------------------------------>
