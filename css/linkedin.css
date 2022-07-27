@@ -1,8 +1,6 @@
+body {
+    background-color: #f3f2ef;
+  }
 .bg-light-blue{
     background-color: #e8edf1;
-}
-.nav-second-right-area{
-    border-left: dotted;
-    border-width: 1px;
-    border-color: rgb(173, 169, 169);
 }
